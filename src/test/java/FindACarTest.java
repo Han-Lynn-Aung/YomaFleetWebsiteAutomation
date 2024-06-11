@@ -21,7 +21,6 @@ public class FindACarTest {
         options.setAcceptInsecureCerts(true);
         options.addPreference("devtools.debugger.remote-enabled", true);
         js = (JavascriptExecutor) driver;
-
     }
     @After
     public void tearDown() {
