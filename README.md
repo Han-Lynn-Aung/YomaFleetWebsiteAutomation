@@ -1,4 +1,4 @@
-# YomaFleetWebsiteAutomation Selenium Setup
+# YomaFleetWebsite Automation Selenium Setup
 
 This project demonstrates how to set up and use Selenium WebDriver with either Chrome or Firefox in your test automation scripts. Below are the instructions for setting up the WebDriver and an example of the `@Before` method to initialize the WebDriver based on the browser choice.
 
