@@ -64,12 +64,12 @@ public class WebDriverSetup {
         String browser = System.getProperty("browser", "firefox");
 
         if (browser.equalsIgnoreCase("chrome")) {
-            System.setProperty("webdriver.chrome.driver", "C:\\ChromeDriver\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "\\your path\\chromedriver.exe");
             ChromeOptions options = new ChromeOptions();
             options.setAcceptInsecureCerts(true);
             driver = new ChromeDriver(options);
         } else if (browser.equalsIgnoreCase("firefox")) {
-            System.setProperty("webdriver.gecko.driver", "C:\\FireFoxDriver\\geckodriver.exe");
+            System.setProperty("webdriver.gecko.driver", "\\your path\\geckodriver.exe");
             FirefoxOptions options = new FirefoxOptions();
             options.setAcceptInsecureCerts(true);
             options.addPreference("devtools.debugger.remote-enabled", true);
